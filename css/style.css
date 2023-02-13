@@ -2170,6 +2170,16 @@ button:hover{
     }
 }
 
+@media(max-width: 414px){
+    .btn_catalog {
+        margin-top: 105px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-left: 18px;
+    }
+}
+
 
 @media(max-width:412px){
     .card_hit {
