@@ -2262,6 +2262,16 @@ button:hover{
     }
 }
 
+@media(max-width: 410px){
+    .btn_catalog {
+        margin-top: 105px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-left: 0;
+    }
+}
+
 @media(max-width:375px){
     .card_hit {
         background: #FFFFFF;
