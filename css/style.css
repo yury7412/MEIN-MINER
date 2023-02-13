@@ -1760,6 +1760,26 @@ button:hover{
         justify-content: space-between;
         flex-wrap: wrap;
     }
+    
+    .footer{
+        padding-bottom: 40px;
+    }
+    
+    .footer_content {
+        padding-top: 40px;
+    }
+    
+    .banner_hero {
+        margin-top: 20px;
+    }
+    
+    .header_bootom {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        padding: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 
     .banner {
         width: 100%;
@@ -2253,5 +2273,260 @@ button:hover{
         line-height: 22px;
         color: #FFFFFF;
         width: 75px;
+    }
+
+    .price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8px;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .btn_catalog {
+        margin-top: 105px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .btn_catalog {
+        margin-top: 105px;
+        display: flex;
+        gap: 9px;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+
+   .header_bootom {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        padding: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .icon svg{
+        display: block;
+        width: 36px;
+    }
+}
+
+@media(max-width:360px){
+    .card_hit {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        border-radius: 10px;
+        width: 150px;
+        height: auto;
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    .right_banner img {
+        width: 180px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .btn_card_hit a {
+        padding: 12px;
+        font-size: 11px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .icon_about_card {
+        width: 138px;
+    }
+
+    .btn_catalog a {
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 22px;
+        color: #FFFFFF;
+        width: 66px;
+    }
+
+    .image_btn_container svg {
+        width: 16px;
+    }
+
+    .header_bootom {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        padding: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .icon svg{
+        display: block;
+        width: 36px;
+    }
+}
+
+@media(max-width:320px){
+    .right_banner img {
+        width: 180px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .title_banner {
+        font-size: 22px;
+    }
+
+    .discount {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin-top: 10px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .image_btn_container {
+        display: flex;
+        margin-top: 45px;
+        flex-wrap: wrap;
+    }
+
+    .btn_catalog {
+        margin-top: 25px;
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .btn_catalog {
+        margin-top: 25px;
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .btn_catalog a {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FFFFFF;
+        width: 75px;
+    }
+
+    .image_btn_container svg {
+        width: 20px;
+    }
+
+    .btn_catalog {
+        margin-top: 25px;
+        display: flex;
+        gap: 0px;
+        align-items: center;
+        margin-left: 0;
+        margin-bottom: 20px;
+        margin-left: 63%;
+    }
+
+    .discount {
+        display: flex;
+        gap: 0;
+        align-items: center;
+        margin-top: 10px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .banner_hero, .catolog_container, .hit_product_container, .about_company, .contacts_container, .footer_content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .advantages_container {
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .advantages_content {
+        padding: 20px;
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .card_hit {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        border-radius: 10px;
+        width: 145px;
+        height: auto;
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    .btn_card_hit a {
+        padding: 12px;
+        font-size: 10px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .icon_about_card {
+        width: 133px;
+    }
+
+    .prg_abt_card {
+        font-size: 14px;
+        width: auto;
+    }
+
+    .politic {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 19px;
+        color: #F3F3F3;
+        margin-top: 20px;
+    }
+
+    .forms_prg {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 25px;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+
+    .name_product {
+        width: 134px;
+        font-size: 16px;
+    }
+
+    .product_img {
+        width: 120px;
+    }
+
+    .title_catalog, .hit {
+        font-size: 22px;
+    }
+
+    .title_contacts {
+        font-size: 22px;
+    }
+
+    .header_bootom {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 7 94 / 10%);
+        padding: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
