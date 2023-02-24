@@ -1982,7 +1982,7 @@ button:hover{
         width: auto;
     }
 
-    .icon_cont, .sotrudnics, .avia, .predzakaz, .dog_or, .video {
+    .icon_cont {
         background: #25307B;
         box-shadow: 0px 4px 40px rgb(0 6 84 / 90%);
         width: 50px;
