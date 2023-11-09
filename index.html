@@ -1,3 +1,18 @@
+<?php
+function sanitize_output($buffer) {
+$search = array('/\>[^\S ]+/s',     // удаляет пробельные символы после тэгов, кроме пробелов
+'/[^\S ]+\</s',     // удаляет пробельные символы до тэгов, кроме пробелов
+'/(\s)+/s',         // укорачивает последовательности из множества пробельных символов
+'/<!--(.|\s)*?-->/' // удаляет HTML-комментарии
+);
+$replace = array('>','<','\\1','');
+$buffer = preg_replace($search, $replace, $buffer);
+return $buffer;
+}
+ob_start("sanitize_output");
+?>
+
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
